@@ -4,7 +4,7 @@ import java.io.*;
 
 class Guloso {
 	static int NUM_LINE = 2;
-	static int NUM_STATION = 4;
+	static int NUM_STATION = 6;
 
 	static int min(int a, int b) {
 		return a < b ? a : b;
@@ -33,10 +33,8 @@ class Guloso {
 	}
 
 	public static void main(String[] args) {
-		int a[][] = { { 7, 9, 3, 4, 8, 4 }, 
-					  { 8, 5, 6, 4, 5, 7 } };
-		int t[][] = { { 2, 3, 1, 3, 4 }, 
-				      { 2, 1, 2, 2, 1 } };
+		int a[][] = { { 7, 9, 3, 4, 8, 4 }, { 8, 5, 6, 4, 5, 7 } };
+		int t[][] = { { 0, 2, 3, 1, 3, 4 }, { 0, 2, 1, 2, 2, 1 } };
 		int e[] = { 2, 4 }, x[] = { 3, 2 };
 		System.out.println(assemblyProduct(a, t, e, x));
 	}
