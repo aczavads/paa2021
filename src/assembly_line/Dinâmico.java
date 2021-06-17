@@ -2,7 +2,7 @@ package assembly_line;
 
 import java.io.*;
 
-class Din„mico
+class Din√¢mico
 {
     static int NUM_LINE = 2;
     static int NUM_STATION = 4;
